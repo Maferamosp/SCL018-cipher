@@ -7,11 +7,10 @@ body{
     width: 100%;
     height: 100%;
     background-image: url(image\velasfondo.png);
-    display: table;
+    display: flex;
     
   }
   .titulo {
-    display: table;
     align-items: center;
     justify-content: center;
     position:absolute;
@@ -23,11 +22,7 @@ body{
     align-items: center;
     justify-content: center;
     box-sizing: center;
-    border: solid 1pt wheat;
-    border-radius: 10px;
-    margin: 3 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: bisque;
     text-align: center;
   }
   .titulo h2, h3, h4 {
@@ -47,9 +42,9 @@ body{
   }
   .contenedor-index img {
     width: 100%;
-    height: 100%;
+    height: 110%;
     position: absolute;
-    opacity: 0.8;
+    opacity: 0.9;
   }
 
   .margen{
@@ -76,9 +71,9 @@ body{
         font-size: 12pt;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align: center;
-        color: blanchedalmond;
+        color: black;
     }
     button:hover {
-      background: rgb(245, 209, 91);
+      background: rgb(170, 60, 20);
       cursor: pointer;
     }
