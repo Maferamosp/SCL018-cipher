@@ -1,11 +1,18 @@
 const cipher = {
   // ...
-  encode: function (toEncode, offset) => {
+  encode: (toEncode, desplazamiento) =>{
    let messageEncode = "";
-    for (let i = 0; i < string.length; i++) =>{
-      let letter = string[i];
-      if(letter.push(/[a-z]/i))
-    }
+    for (let i = 0; i < toEncode.length; i++){
+      let letter = toEncode[i];
+      if(letter.match(/['A-Z']/i)){
+        if(toEncode.charCodeAt(i) >= 65 && toEncode.charCodeAt(i) <= 90){
+         let toAscii = (toEncode.charCodeAt(i) - 65 + parseInt(desplazamiento)) % 26 + 65;
+         console.log(toAscii);
+         messageEncode += String.fromCharCode(toAscii);
+        }
+      }
+    } console.log(messageEncode);
+    return messageEncode;
   }
 };
 

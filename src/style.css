@@ -7,8 +7,11 @@ body{
     width: 100%;
     height: 100%;
     background-image: url(image\velasfondo.png);
-    display: flex;
-    
+    display: flex;    
+  }
+  .contenedor-cuerpo{
+    background-color: black;
+    opacity: 0,9;
   }
   .titulo {
     align-items: center;
@@ -55,7 +58,6 @@ body{
       background-color: beige;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       color: black;
-      text-transform: uppercase;
       height: 40px;
       width: auto;
       border-radius: 12px;
