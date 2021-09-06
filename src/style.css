@@ -1,4 +1,4 @@
-body{
+body {
     padding: 0;
     box-sizing: border-box;
     margin: 0;
@@ -43,6 +43,14 @@ body{
       text-align: center;
       font-weight: bolder;
   }
+  .container {
+    border-radius: 30px;
+    background-color: burlywood;
+    opacity: 0.8;
+    padding: 30px;
+    align-items: center;
+    margin: 6%;
+  }
   .contenedor-index img {
     width: 100%;
     height: 110%;
@@ -78,4 +86,7 @@ body{
     button:hover {
       background: rgb(170, 60, 20);
       cursor: pointer;
+    }
+    .textarea {
+
     }

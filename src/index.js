@@ -11,7 +11,7 @@ cifrar.addEventListener('click', () => {
     let desplazamiento = document.getElementById('offset').value;
     console.log(toEncode)
     containerAnswer.innerHTML = cipher.encode(toEncode, desplazamiento);
-})
+});
 
 const descifrar = document.getElementById('descifrar');
 

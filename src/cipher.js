@@ -14,7 +14,7 @@ const cipher = {
     } console.log(messageEncode);
     return messageEncode;
   }
-};
+}
 
 export default cipher;
 
