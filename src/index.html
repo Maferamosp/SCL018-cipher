@@ -6,18 +6,22 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
+    <img src="image\velasfondo.png" alt="">
 
       <div class="contenedor-index">
-      <img src="image\velasfondo.png" alt="">
-      <div class="margen"> 
-      <div class="titulo">
+     
+      <div class="margen">
+     
+         
+        <header>
           <h1>Aca encontrarás en un espacio seguro</h1>
-        
-            <form action="">
           <p>En este ambiente podrás sentirte seguro/a y comodo/a, por este medio te brindaremos herramientas para ayudar
-          a resolver algún problema intrafamiliar, <b>en el siguiente campo puedes poner un mensaje secreto que se autodestruira
-            y solo nosotros, los profesionales, podremos descifrar...</b></p>
+            a resolver algún problema intrafamiliar, <b>en el siguiente campo puedes poner un mensaje secreto que se autodestruira
+              y solo nosotros, los profesionales, podremos descifrar...</b></p>
+        </header>
+
+        <section id="contenedor">
+            <form action="">
           <h2>Indicanos el mensaje:</h2>
           <p><input type="text" id="mensaje1" size="50"></p>
           <h3>Selecciona un numero clave</h3>
@@ -29,10 +33,13 @@
           <p id="mensaje2"></p>
           <button type="reset" value="reset"><b>Borrar</b></button>
         </form>
+      </section>
+      <footer>
+       <p>¡Muchas gracias por compartir en este espacio con nosotras!</p>
+      </footer>
       </div>
         </div>
-      </div>
-    </div>
+      <div id="root"></div>
   
     <script src="index.js" type="module"></script>
   </body>

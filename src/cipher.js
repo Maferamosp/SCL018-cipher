@@ -13,9 +13,24 @@ const cipher = {
       }
     } console.log(messageEncode);
     return messageEncode;
-  }
+  },
+  decode: (toDecode, desplazamiento) =>{
+    let messageDecode = ""; // se declara una variable con el objeto vacio
+     for (let i = 0; i < toDecode.length; i++){ // for itera por el string
+       let letterOne = toDecode[i]; // almacena el caracter en el string a medida que el for itera
+       if(letterOne.match(/['A-Z']/i)){ //verifica si la propiedad existe en el mapa
+         if(toDecode.charCodeAt(i) >= 65 && toDecode.charCodeAt(i) <= 90){
+          let toAscii = (toDecode.charCodeAt(i) + 65 - parseInt(desplazamiento)) % 26 + 65;
+          console.log(toAscii);
+          messageDecode += String.fromCharCode(toAscii);
+         }
+       }
+     } console.log(messageDecode);
+     return messageDecode; 
+    }
 };
 
 export default cipher;
+
 
 
