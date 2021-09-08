@@ -8,23 +8,23 @@ En la generación número 18 de Laboratoria, se nos presentó el reto de realiza
 
 * Partimos por encontrar un tema en el que ambas nos sintiéramos cómodas y fuera de nuestro interés, desarrollamos nuestros bocetos en hojas y lapiz. 
 
-![foto1](readmi\decision.jpeg) 
+![foto1](https://github.com/Maferamosp/SCL018-cipher/blob/main/readmi/decision.jpeg) 
 
 *  Empezamos a imaginarnos como queriamos la WebApp, ambas coincidimos en que nos gusta lo minimalista y que en ocasiones, menos es mas, queriamos algo sobrio, sencillo pero atractivo para nuestro usario, decidimos que el diseño debería generar paz y tranquilidad, usando fondo de velas, y colores cálidos. 
 
-![foto2](readmi\diseño1.jpeg) 
+![foto2](https://github.com/Maferamosp/SCL018-cipher/blob/main/readmi/dise%C3%B1o1.jpeg) 
 
-![visnu](readmi\visnu.jpeg) 
+![visnu](https://github.com/Maferamosp/SCL018-cipher/blob/main/readmi/visnu.jpeg) 
 
 * Trello fue un aliado para la organización y el desarrollo de tareas en Javascript, marcar objetivos de aprendizajes alcanzados, y darnos cuenta que faltaba implementar. 
 
-![foto3](readmi\trello.jpeg) 
+![foto3](https://github.com/Maferamosp/SCL018-cipher/blob/main/readmi/trello.jpeg) 
 
 * Luego de muchos cambios, ensayo y error, testeo y pruebas, finalmente conseguimos el diseño que buscabamos. 
 
-![codigo2](readmi\codigo2.jpg) 
+![codigo2](https://github.com/Maferamosp/SCL018-cipher/blob/main/readmi/codigo2.jpg) 
 
-![codigo1](readmi\codigo1.jpg) 
+![codigo1](https://github.com/Maferamosp/SCL018-cipher/blob/main/readmi/codigo1.jpg) 
 
 ## 2. Usuarios 
 En nuestra busqueda por definir el tema que queriamos abordar, sabiamos que queriamos que fuese algo con lo que nos sintieramos cómodas y de alguna forma quizás identificadas, teniamos varias ideas y decidimos realizar esta temática ya que es un tema muy común, una Web de fácil acceso y manejo, tanto para jóvenes o adultos. 
