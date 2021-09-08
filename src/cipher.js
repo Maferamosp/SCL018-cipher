@@ -1,6 +1,6 @@
 const cipher = {
   // ...
-  encode: (toEncode, desplazamiento) =>{
+  encode: (desplazamiento, toEncode) =>{
    let messageEncode = "";
     for (let i = 0; i < toEncode.length; i++){
       let letter = toEncode[i];
@@ -14,7 +14,7 @@ const cipher = {
     } console.log(messageEncode);
     return messageEncode;
   },
-  decode: (toDecode, desplazamiento) =>{
+  decode: (desplazamiento, toDecode) =>{
     let messageDecode = ""; // se declara una variable con el objeto vacio
      for (let i = 0; i < toDecode.length; i++){ // for itera por el string
        let letterOne = toDecode[i]; // almacena el caracter en el string a medida que el for itera
