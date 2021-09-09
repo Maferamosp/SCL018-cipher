@@ -1,6 +1,6 @@
 body{
-  padding: 0;
-  margin: 0;
+  padding: 0;/*espacio de relleno requerido por todos los lados de un elemento*/
+  margin: 0;/*hola*/
 }
 .contenedor-index {
   width: 1300px;
@@ -54,7 +54,26 @@ input{
     border: solid 2pt black;
     text-align: center;
   }
+<<<<<<< HEAD
   img{
+=======
+  .titulo p{
+      font-size: 13pt;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      align-items: center;
+      text-align: center;
+      font-weight: bolder;
+  }
+  .container {
+    border-radius: 30px;
+    background-color: burlywood;
+    opacity: 0.8;
+    padding: 30px;
+    align-items: center;
+    margin: 6%;
+  }
+  .contenedor-index img {
+>>>>>>> cd0cd328e7b086f0544b697072e130e541547d0b
     width: 100%;
     height: 120%;
     position: absolute;
@@ -69,9 +88,31 @@ input{
       font-size: 12pt;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       text-align: center;
+<<<<<<< HEAD
       color: black;
   }
   button:hover {
     background: rgb(170, 60, 20);
     cursor: pointer;
   }
+=======
+    }
+    button{
+        background-color: rgb(155, 120, 81);
+        border-radius: 12px;
+        border: solid 2pt black;
+        padding: 10px;
+        width: 200px;
+        font-size: 12pt;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        color: black;
+    }
+    button:hover {
+      background: rgb(170, 60, 20);
+      cursor: pointer;
+    }
+    .textarea {
+
+    }
+>>>>>>> cd0cd328e7b086f0544b697072e130e541547d0b
