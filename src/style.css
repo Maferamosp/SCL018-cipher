@@ -2,7 +2,7 @@ body{
   padding: 0;
   margin: 0;
 }
-.contenedor-index {
+.contenedor-index {/*caja padre2*/
   width: 1300px;
   height: 690px;
   display: flex;
