@@ -1,14 +1,18 @@
 import cipher from './cipher.js';
 
-const containerAnswer = document.getElementById('mensaje2'); //mensaje descifrado
+const containerAnswer = document.getElementById('mensaje2'); 
+//mensaje resuelto
 
 const cifrar = document.getElementById('cifrar');
 
 cifrar.addEventListener('click', () => {
-    let toEncode = document.getElementById('mensaje1').value; //sacamos el valor de mensaje
-    let desplazamiento = document.getElementById('offset').value; //sacamos el valor del desplazamiento
+    let toEncode = document.getElementById('mensaje1').value; 
+    //sacamos el valor de mensaje
+    let desplazamiento = document.getElementById('offset').value; 
+    //sacamos el valor del desplazamiento
     console.log(toEncode)
-    containerAnswer.innerHTML = cipher.encode(desplazamiento, toEncode.toUpperCase());//con la variable lo llamamos al html
+    containerAnswer.innerHTML = cipher.encode(desplazamiento, toEncode.toUpperCase());
+    //con la variable lo llamamos al html convirtiendo el mensaje 1 en mayus
 })
 
 // desarrollar el boton descifrar 
