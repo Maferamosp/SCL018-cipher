@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 body{
   padding: 0;/*espacio de relleno requerido por todos los lados de un elemento*/
-  margin: 0;
+  margin: 0;/*hola*/
 }
 .contenedor-index {
   width: 1300px;
@@ -30,39 +29,6 @@ h2, h3, h4 {
   text-align: center;
 }
 p{
-=======
-body {
-    padding: 0;
-    box-sizing: border-box;
-    margin: 0;
-  }
-  .contenedor-index {
-    width: 100%;
-    height: 100%;
-    background-image: url(image\velasfondo.png);
-    display: flex;    
-  }
-  .contenedor-cuerpo{
-    background-color: black;
-    opacity: 0,9;
-  }
-  .titulo {
-    align-items: center;
-    justify-content: center;
-    position:absolute;
-    text-align: center;
-  }
-  
-  .titulo h1 {
-    font-size: 30pt;
-    align-items: center;
-    justify-content: center;
-    box-sizing: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-  }
-  .titulo h2, h3, h4 {
->>>>>>> cd0cd328e7b086f0544b697072e130e541547d0b
     font-size: 15pt;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
