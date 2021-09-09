@@ -13,7 +13,6 @@ const cipher = {
       }
     } console.log(messageEncode);
     return messageEncode;
-<<<<<<< HEAD
   },
   decode: (desplazamiento, toDecode) =>{
     let messageDecode = ""; // se declara una variable con el objeto vacio
@@ -30,10 +29,6 @@ const cipher = {
      return messageDecode; // 
     }
 };
-=======
-  }
-}
->>>>>>> cd0cd328e7b086f0544b697072e130e541547d0b
 
 export default cipher;
 
