@@ -54,6 +54,16 @@ input{
     border: solid 2pt black;/*borde*/
     text-align: center;
   }
+  textarea{
+    background-color: beige;/*color de fonde del textarea*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;/*color de letras*/
+    height: 40px;/*altura*/
+    width: auto; /*ancho*/
+    border-radius: 12px; /*redondear bordes*/
+    border: solid 2pt black;/*borde*/
+    text-align: center;
+  }
   img{
     width: 100%;/*ancho de la imagene de fondo*/
     height: 120%;/*altura de la imagen de fondo*/
