@@ -1,6 +1,6 @@
 body{
-  padding: 0;
-  margin: 0;
+  padding: 0;/*espacio de relleno requerido por todos los lados de un elemento*/
+  margin: 0;/*hola*/
 }
 .contenedor-index {/*caja padre2*/
   width: 1300px;
