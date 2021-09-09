@@ -1,5 +1,5 @@
 body{
-  padding: 0;
+  padding: 0;/*espacio de relleno requerido por todos los lados de un elemento*/
   margin: 0;
 }
 .contenedor-index {
