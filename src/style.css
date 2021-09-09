@@ -1,30 +1,30 @@
 body{
-  padding: 0;/*hola*/
-  margin: 0;
+  padding: 0;/*espacio de relleno requerido por todos los lados de un elemento*/
+  margin: 0;/*margen de los cuatro lados*/
 }
-.contenedor-index {
-  width: 1300px;
-  height: 690px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position:absolute;
-  text-align: center;    
+.contenedor-index {/*caja padre2*/
+  width: 1300px;/*ancho de un elemento*/
+  height: 690px;/*altura de un elemnto */
+  display: flex;/*Los elementos se distribuyen de izquierda a derecha*/
+  align-items: center;/*alineacion de elementos*/
+  justify-content: center;/* distribuye el espacio entre y alrededor de los items flex*/
+  position:absolute;/*posicionar elementos de manera absoluta*/
+  text-align: center; /*alineacion del texto en el centro*/
 }
 .contenedor-titulo{
   text-align: center;
 }
 .contenedor-titulo h1{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 27pt;
-  text-shadow: rgba(224, 171, 97, 0.883) 0.1em 0.1em 0.2em
+  font-family: Verdana, Geneva, Tahoma, sans-serif;/*fuentes del texto*/
+  font-size: 27pt;/*dimension de letras*/
+  text-shadow: rgba(224, 171, 97, 0.883) 0.1em 0.1em 0.2em /*sombra del texto*/
 
 }
 h2, h3, h4 {
-  font-size: 15pt;
+  font-size: 15pt;/*dimension de letras*/
   align-items: center;
-  justify-content: center;
-  vertical-align: middle;
+  justify-content: center;/* distribuye el espacio entre y alrededor de los items flex*/
+  vertical-align: middle;/*elementos inline vertical*/
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: center;
 }
@@ -36,42 +36,42 @@ p{
     font-weight: bolder; /*ponerlo en negrita*/
 }
 #contenedor{
-background: rgba(222, 184, 135, 0.931);
-border-radius: 10px;
-box-shadow: 3px 3px 7px 1px #333;
+background: rgba(222, 184, 135, 0.931);/*color de fonde del cuadro*/
+border-radius: 10px;/*redondear bordes del cuadro*/
+box-shadow: 3px 3px 7px 1px #333;/*sombra del cuadro*/
 }
 .margen{
-  width: 60%;
+  width: 60%;/*ancho del area del elemento */
 }
 
 input{
-    background-color: beige;
+    background-color: beige;/*color de fonde del imput*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
-    height: 40px;
-    width: auto;
-    border-radius: 12px;
-    border: solid 2pt black;
+    color: black;/*color de letras*/
+    height: 40px;/*altura*/
+    width: auto; /*ancho*/
+    border-radius: 12px; /*redondear bordes*/
+    border: solid 2pt black;/*borde*/
     text-align: center;
   }
   img{
-    width: 100%;
-    height: 120%;
-    position: absolute;
-    opacity: 0.9;
+    width: 100%;/*ancho de la imagene de fondo*/
+    height: 120%;/*altura de la imagen de fondo*/
+    position: absolute;/*posicion de la imagen de fondo*/
+    opacity: 0.9;/*la opacidad*/
   }
   button{
-      background-color: rgb(155, 120, 81);
-      border-radius: 12px;
+      background-color: rgb(155, 120, 81);/*color de fondo de botones*/
+      border-radius: 12px;/*redondea el borde*/
       border: solid 2pt black;
-      padding: 10px;
-      width: 200px;
-      font-size: 12pt;
+      padding: 10px;/*espacio entre el contenido y su borde */
+      width: 200px;/*ancho del boton */
+      font-size: 12pt;/*dimension de letras*/
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       text-align: center;
       color: black;
   }
   button:hover {
-    background: rgb(170, 60, 20);
-    cursor: pointer;
+    background: rgb(170, 60, 20);/*color de fondo al interactuar*/
+    cursor: pointer;/*efecto con la flecha del mouse*/
   }
