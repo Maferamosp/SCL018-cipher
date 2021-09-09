@@ -11,6 +11,8 @@ cifrar.addEventListener('click', () => {
     containerAnswer.innerHTML = cipher.encode(desplazamiento, toEncode.toUpperCase());//con la variable lo llamamos al html
 })
 
+// desarrollar el boton descifrar 
+
 const descifrar = document.getElementById('descifrar');
 
 descifrar.addEventListener('click', () =>{
@@ -19,3 +21,4 @@ descifrar.addEventListener('click', () =>{
     console.log(toDecode)
     containerAnswer.innerHTML = cipher.decode(desplazamiento, toDecode.toUpperCase());
 });
+
